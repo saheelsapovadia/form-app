@@ -101,6 +101,7 @@ footer {
 label {
   font-weight: 500;
   font-size: 0.8em;
+  margin-top: 10px;
 }
 
 input,
@@ -155,4 +156,19 @@ button:hover {
   cursor: pointer;
   background-color: #8bdbe9;
   color: black;
+}
+.form-error {
+  color: rgb(255, 51, 0);
+  font-weight: 500;
+}
+
+.lib {
+  font-size: medium;
+  margin: 0;
+  margin-bottom: 2px;
+}
+.lib > a {
+  text-decoration: underline;
+  font-weight: 500;
+  color: rgb(89, 208, 238);
 }
